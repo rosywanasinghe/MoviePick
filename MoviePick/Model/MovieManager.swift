@@ -11,9 +11,9 @@ import SwiftyJSON
 
 class MovieManager {
     
-    let infoURL = "https://api.themoviedb.org/3/movie/<MOVIE_ID>?api_key=c51a0c1eed541d73b9bbc223e62db7bc"
+    let infoURL = "https://api.themoviedb.org/3/movie/<MOVIE_ID>?api_key=<INSERT_API_KEY>"
     
-    var movieIDURL = "https://api.themoviedb.org/3/search/movie?api_key=c51a0c1eed541d73b9bbc223e62db7bc&language=en-US&query="
+    var movieIDURL = "https://api.themoviedb.org/3/search/movie?api_key=<INSERT_API_KEY>&language=en-US&query="
     
     var movieArray = [Movie]()
     
